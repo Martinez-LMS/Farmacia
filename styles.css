@@ -314,13 +314,14 @@ nav {
 
 .hero-carousel {
   position: relative;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   overflow: hidden;
 }
 
 .hero-slide {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0; left: 0; right: 0;
+  min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   opacity: 0;
@@ -333,6 +334,7 @@ nav {
   opacity: 1;
   pointer-events: auto;
   z-index: 2;
+  position: relative;
 }
 
 .hero-slide-banner {
