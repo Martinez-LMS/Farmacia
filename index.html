@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmácias Desconto Fácil - Pinheirinho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">
+      <img src="Logo 2.png" alt="Farmácias Desconto Fácil" class="logo-img" />
+      <div class="logo-text">
+        <span>Farmácias</span>
+        <span>Desconto Fácil</span>
+        <span class="logo-location">Pinheirinho</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Início</a></li>
+      <li><a href="#produtos">Produtos</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="https://wa.me/5541999999999" target="_blank" class="nav-cta">
+        <i class="fa-brands fa-whatsapp"></i> Peça agora!
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── MOBILE MENU OVERLAY ── -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<!-- ── MOBILE MENU ── -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <div class="mobile-menu-logo">
+      <img src="Logo 2.png" alt="Farmácias Desconto Fácil" class="logo-img" style="height:46px" />
+      <div class="logo-text">
+        <span>Farmácias</span>
+        <span>Desconto Fácil</span>
+        <span class="logo-location">Pinheirinho</span>
+      </div>
+    </div>
+    <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+  <nav class="mobile-nav">
+    <a href="#hero"><i class="fa-solid fa-house"></i> Início</a>
+    <a href="#produtos"><i class="fa-solid fa-box-open"></i> Produtos</a>
+    <a href="#sobre"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+    <a href="#servicos"><i class="fa-solid fa-gears"></i> Serviços</a>
+    <a href="#contato"><i class="fa-solid fa-phone"></i> Contato</a>
+    <a href="#mapa"><i class="fa-solid fa-location-dot"></i> Localização</a>
+  </nav>
+  <a href="https://wa.me/5541999999999" target="_blank" class="mobile-cta">
+    <i class="fa-brands fa-whatsapp"></i> Delivery Urgente!
+  </a>
+</div>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-carousel">
+
+    <!-- Fundo animado compartilhado por todos os slides -->
+    <div class="hero-bg-shapes"></div>
+    <div class="hero-pills">
+      <div class="pill"></div>
+      <div class="pill"></div>
+      <div class="pill"></div>
+      <div class="pill"></div>
+      <div class="pill"></div>
+    </div>
+
+    <!-- SLIDE 1: hero principal -->
+    <div class="hero-slide active">
+      <div class="hero-inner container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-star"></i>
+            Há mais de 10 anos cuidando de você
+          </div>
+          <h1 class="hero-title">
+            Sua saúde em<br>
+            <span>boas mãos</span> no<br>
+            Pinheirinho!
+          </h1>
+          <p class="hero-desc">
+            Medicamentos, perfumaria, dermocosméticos e muito mais com os melhores preços. Delivery rápido até sua porta!
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/5541999999999" target="_blank" class="btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Pedir pelo WhatsApp
+            </a>
+            <a href="#produtos" class="btn-secondary">
+              <i class="fa-solid fa-arrow-down"></i> Ver Produtos
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="10">0</span>
+              <span class="stat-label">Anos no Mercado</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="5000">0</span>
+              <span class="stat-label">Clientes Satisfeitos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="1">0</span>
+              <span class="stat-label">Hora para Entregar</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-big">
+            <div class="hero-cross">
+              <img src="Logo 2.png" alt="Farmácias Desconto Fácil" class="hero-logo-img" />
+            </div>
+            <h3>Farmácias Desconto Fácil</h3>
+            <p>Pinheirinho — Curitiba, PR</p>
+            <div class="hours-badge">
+              <i class="fa-solid fa-calendar-days"></i>
+              Seg–Sáb 08:30–22:00 | Dom 08:30–20:00
+            </div>
+            <a href="https://wa.me/5541999999999" target="_blank" class="delivery-badge">
+              <i class="fa-solid fa-motorcycle"></i>
+              <span>Delivery Rápido </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: Medicamento Genérico -->
+    <div class="hero-slide hero-slide-product">
+      <div class="container">
+        <div class="product-slide-inner">
+          <div class="product-slide-brand">
+            <div class="product-brand-banner-wrap">
+              <img src="Banner desconto facil.png" alt="Farmácias Desconto Fácil" class="product-brand-banner" />
+            </div>
+            <div class="product-brand-text">
+              <span class="product-brand-name">Farmácias Desconto Fácil</span>
+              <a href="#mapa" class="product-brand-sub">Pinheirinho — Curitiba, PR</a>
+            </div>
+          </div>
+          <div class="product-slide-divider"></div>
+          <div class="product-slide-content">
+            <img src="COMPRIMIDO.png" alt="Medicamento Genérico" class="product-slide-img" />
+            <div class="product-slide-info">
+              <h3>Medicamentos Genéricos</h3>
+              <p>Qualidade garantida com os melhores preços da região.</p>
+              <a href="https://wa.me/5541999999999" target="_blank" class="btn-primary">
+                <i class="fa-brands fa-whatsapp"></i> Peça agora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3: Cimegripe -->
+    <div class="hero-slide hero-slide-product">
+      <div class="container">
+        <div class="product-slide-inner">
+          <div class="product-slide-brand">
+            <div class="product-brand-banner-wrap">
+              <img src="Banner desconto facil.png" alt="Farmácias Desconto Fácil" class="product-brand-banner" />
+            </div>
+            <div class="product-brand-text">
+              <span class="product-brand-name">Farmácias Desconto Fácil</span>
+              <a href="#mapa" class="product-brand-sub">Pinheirinho — Curitiba, PR</a>
+            </div>
+          </div>
+          <div class="product-slide-divider"></div>
+          <div class="product-slide-content">
+            <img src="Cinegripe.png" alt="Cimegripe" class="product-slide-img" />
+            <div class="product-slide-info">
+              <h3>Cimegripe</h3>
+              <p>Alívio rápido para gripes e resfriados. Disponível aqui!</p>
+              <a href="https://wa.me/5541999999999" target="_blank" class="btn-primary">
+                <i class="fa-brands fa-whatsapp"></i> Peça agora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 4: Epocler -->
+    <div class="hero-slide hero-slide-product">
+      <div class="container">
+        <div class="product-slide-inner">
+          <div class="product-slide-brand">
+            <div class="product-brand-banner-wrap">
+              <img src="Banner desconto facil.png" alt="Farmácias Desconto Fácil" class="product-brand-banner" />
+            </div>
+            <div class="product-brand-text">
+              <span class="product-brand-name">Farmácias Desconto Fácil</span>
+              <a href="#mapa" class="product-brand-sub">Pinheirinho — Curitiba, PR</a>
+            </div>
+          </div>
+          <div class="product-slide-divider"></div>
+          <div class="product-slide-content">
+            <img src="epocler.webp" alt="Epocler" class="product-slide-img" />
+            <div class="product-slide-info">
+              <h3>Epocler</h3>
+              <p>Solução para ressaca e desconforto gástrico. Temos aqui!</p>
+              <a href="https://wa.me/5541999999999" target="_blank" class="btn-primary">
+                <i class="fa-brands fa-whatsapp"></i> Peça agora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-btn carousel-prev" aria-label="Slide anterior">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <button class="carousel-btn carousel-next" aria-label="Próximo slide">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" data-index="0" aria-label="Slide 1"></button>
+      <button class="carousel-dot" data-index="1" aria-label="Slide 2"></button>
+      <button class="carousel-dot" data-index="2" aria-label="Slide 3"></button>
+      <button class="carousel-dot" data-index="3" aria-label="Slide 4"></button>
+      <button class="carousel-dot" data-index="4" aria-label="Slide 5"></button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── TICKER ── -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <div class="ticker-item"><i class="fa-solid fa-clock"></i> Delivery de Seg a Sáb das 08:30 às 22:00 e Dom das 08:30 às 20:00!</div>
+    <div class="ticker-item"><i class="fa-solid fa-motorcycle"></i> Entrega em até 1 hora na sua região!</div>
+    <div class="ticker-item"><i class="fa-solid fa-pills"></i> Medicamentos, Perfumaria, Dermocosméticos e muito mais!</div>
+    <div class="ticker-item"><i class="fa-solid fa-credit-card"></i> Pix, Cartão e Dinheiro — Facilidade no pagamento!</div>
+    <div class="ticker-item"><i class="fa-solid fa-clock"></i> Delivery de Seg a Sáb das 08:30 às 22:00 e Dom das 08:30 às 20:00!</div>
+    <div class="ticker-item"><i class="fa-solid fa-motorcycle"></i> Entrega em até 1 hora na sua região!</div>
+    <div class="ticker-item"><i class="fa-solid fa-pills"></i> Medicamentos, Perfumaria, Dermocosméticos e muito mais!</div>
+    <div class="ticker-item"><i class="fa-solid fa-credit-card"></i> Pix, Cartão e Dinheiro — Facilidade no pagamento!</div>
+  </div>
+</div>
+
+<!-- ── PRODUTOS ── -->
+<section id="produtos">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag"><i class="fa-solid fa-box-open"></i> Nosso Portfólio</div>
+      <h2 class="section-title">Produtos em <span>Destaque</span></h2>
+      <p class="section-desc">Encontre tudo o que você precisa para sua saúde, beleza e bem-estar com os melhores preços da região.</p>
+    </div>
+    <div class="produtos-grid">
+      <div class="produto-card reveal">
+        <div class="produto-icon"><i class="fa-solid fa-pills"></i></div>
+        <div class="produto-name">Medicamentos</div>
+        <div class="produto-desc">Remédios com e sem prescrição médica de todos os laboratórios.</div>
+      </div>
+      <div class="produto-card reveal" style="transition-delay:0.1s">
+        <div class="produto-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+        <div class="produto-name">Perfumaria</div>
+        <div class="produto-desc">Perfumes, colônias e fragrâncias das melhores marcas.</div>
+      </div>
+      <div class="produto-card reveal" style="transition-delay:0.2s">
+        <div class="produto-icon"><i class="fa-solid fa-face-smile"></i></div>
+        <div class="produto-name">Dermocosméticos</div>
+        <div class="produto-desc">Produtos dermatológicos para cuidado e beleza da pele.</div>
+      </div>
+      <div class="produto-card reveal" style="transition-delay:0.3s">
+        <div class="produto-icon"><i class="fa-solid fa-wand-sparkles"></i></div>
+        <div class="produto-name">Maquiagens</div>
+        <div class="produto-desc">Linhas completas de maquiagem para todos os estilos.</div>
+      </div>
+      <div class="produto-card reveal" style="transition-delay:0.4s">
+        <div class="produto-icon"><i class="fa-solid fa-dumbbell"></i></div>
+        <div class="produto-name">Suplementos</div>
+        <div class="produto-desc">Vitaminas e suplementos para sua saúde e imunidade.</div>
+      </div>
+      <div class="produto-card reveal" style="transition-delay:0.5s">
+        <div class="produto-icon"><i class="fa-solid fa-baby"></i></div>
+        <div class="produto-name">Higiene &amp; Bebê</div>
+        <div class="produto-desc">Produtos de higiene pessoal e linha completa para bebês.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SOBRE ── -->
+<section id="sobre">
+  <div class="container">
+    <div class="sobre-inner">
+      <div class="sobre-visual reveal-left">
+        <div class="sobre-main-card">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h3>Muito + que uma farmácia!</h3>
+          <p>Nascemos com o propósito claro: levar saúde, cuidado e economia para a comunidade do Pinheirinho e toda Curitiba.</p>
+        </div>
+        <div class="sobre-badge-float top-right">
+          <div class="badge-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="badge-text">
+            <span>+10 anos</span>
+            <span>No mercado</span>
+          </div>
+        </div>
+        <div class="sobre-badge-float bottom-left">
+          <div class="badge-icon"><i class="fa-solid fa-star"></i></div>
+          <div class="badge-text">
+            <span>5★ Avaliação</span>
+            <span>Pelos clientes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sobre-content reveal-right">
+        <div class="section-tag"><i class="fa-solid fa-circle-info"></i> Sobre Nós</div>
+        <h2 class="section-title">Cuidando da sua <span>saúde</span> com dedicação</h2>
+        <p class="section-desc">
+          A Farmácia Desconto Fácil Pinheirinho atua há mais de 10 anos servindo com excelência e dedicação total aos nossos clientes. Com profissionais qualificados e produtos de alta qualidade, garantimos a saúde e bem-estar de todos.
+        </p>
+        <ul class="sobre-list">
+          <li><div class="check-icon"><i class="fa-solid fa-check"></i></div> Farmacêuticos qualificados para orientação</li>
+          <li><div class="check-icon"><i class="fa-solid fa-check"></i></div> Produtos de alta qualidade e procedência</li>
+          <li><div class="check-icon"><i class="fa-solid fa-check"></i></div> Preços justos e acessíveis para todos</li>
+          <li><div class="check-icon"><i class="fa-solid fa-check"></i></div> Atendimento humanizado e próximo</li>
+          <li><div class="check-icon"><i class="fa-solid fa-check"></i></div> Certificação ANVISA garantida</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVIÇOS ── -->
+<section id="servicos">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-tag"><i class="fa-solid fa-gears"></i> O que oferecemos</div>
+      <h2 class="section-title">Nossos <span>Serviços</span></h2>
+      <p class="section-desc" style="margin:0 auto">Uma variedade completa de serviços para atender todas as suas necessidades de saúde e beleza.</p>
+    </div>
+    <div class="servicos-grid">
+      <div class="servico-card reveal">
+        <div class="servico-num">01</div>
+        <div class="servico-icon"><i class="fa-solid fa-motorcycle"></i></div>
+        <div class="servico-title">Delivery Rápido</div>
+        <div class="servico-desc">Entregamos em até 1 hora na sua região, de segunda a sábado das 08:30 às 22:00 e domingos das 08:30 às 20:00.</div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:0.1s">
+        <div class="servico-num">02</div>
+        <div class="servico-icon"><i class="fa-solid fa-pills"></i></div>
+        <div class="servico-title">Manipulação e Genéricos</div>
+        <div class="servico-desc">Grande variedade de medicamentos genéricos e similares com qualidade garantida e preços até 80% menores.</div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:0.2s">
+        <div class="servico-num">03</div>
+        <div class="servico-icon"><i class="fa-solid fa-user-doctor"></i></div>
+        <div class="servico-title">Orientação Farmacêutica</div>
+        <div class="servico-desc">Farmacêuticos qualificados disponíveis para tirar suas dúvidas sobre medicamentos, posologia e interações.</div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:0.3s">
+        <div class="servico-num">04</div>
+        <div class="servico-icon"><i class="fa-solid fa-credit-card"></i></div>
+        <div class="servico-title">Pagamento Fácil</div>
+        <div class="servico-desc">Aceitamos todas as formas de pagamento: Pix, cartões de crédito e débito, dinheiro e parcelamento.</div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:0.4s">
+        <div class="servico-num">05</div>
+        <div class="servico-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="servico-title">Armazenamento Seguro</div>
+        <div class="servico-desc">Todos os produtos são armazenados e transportados com máxima segurança e cuidado, conforme normas da ANVISA.</div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:0.5s">
+        <div class="servico-num">06</div>
+        <div class="servico-icon"><i class="fa-solid fa-message"></i></div>
+        <div class="servico-title">Atendimento pelo WhatsApp</div>
+        <div class="servico-desc">Faça seu pedido diretamente pelo WhatsApp com atendimento rápido e personalizado para você.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── DIFERENCIAIS ── -->
+<section id="diferenciais">
+  <div class="container">
+    <div class="diferenciais-inner">
+      <div class="diferenciais-content reveal-left">
+        <div class="section-tag"><i class="fa-solid fa-gem"></i> Por que nos escolher</div>
+        <h2 class="section-title">Na Desconto Fácil você <span>tem mais!</span></h2>
+        <p class="section-desc">Oferecemos não apenas produtos de qualidade, mas uma experiência completa de atendimento e cuidado com a sua saúde.</p>
+        <div>
+          <div class="diferencial-item">
+            <div class="diferencial-icon-wrap red"><i class="fa-solid fa-bolt"></i></div>
+            <div class="diferencial-text">
+              <h4>Entrega em até 1 hora</h4>
+              <p>Delivery ultra rápido para você receber seus produtos sem sair de casa.</p>
+            </div>
+          </div>
+          <div class="diferencial-item">
+            <div class="diferencial-icon-wrap green"><i class="fa-solid fa-tag"></i></div>
+            <div class="diferencial-text">
+              <h4>Melhores Preços da Região</h4>
+              <p>Descontos especiais e promoções exclusivas para nossos clientes fiéis.</p>
+            </div>
+          </div>
+          <div class="diferencial-item">
+            <div class="diferencial-icon-wrap red"><i class="fa-solid fa-headset"></i></div>
+            <div class="diferencial-text">
+              <h4>Resposta Rápida no Atendimento</h4>
+              <p>Nossa equipe está pronta para te atender com agilidade e simpatia.</p>
+            </div>
+          </div>
+          <div class="diferencial-item">
+            <div class="diferencial-icon-wrap green"><i class="fa-solid fa-heart"></i></div>
+            <div class="diferencial-text">
+              <h4>Foco Total no Cliente</h4>
+              <p>Sua saúde e satisfação são nossa prioridade máxima. Estamos aqui para cuidar de você.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="diferenciais-visual reveal-right">
+        <div class="mini-card">
+          <div class="mini-icon"><i class="fa-solid fa-motorcycle"></i></div>
+          <div class="mini-title">Delivery Ultra Rápido</div>
+          <div class="mini-desc">Em até 1 hora na sua porta</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon" style="background:rgba(211,47,47,0.1);color:var(--red)"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="mini-title">Segurança</div>
+          <div class="mini-desc">Produtos com procedência garantida</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon" style="background:rgba(46,125,50,0.1);color:var(--green)"><i class="fa-solid fa-user-doctor"></i></div>
+          <div class="mini-title">Orientação</div>
+          <div class="mini-desc">Farmacêuticos especializados</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon" style="background:rgba(211,47,47,0.1);color:var(--red)"><i class="fa-solid fa-star"></i></div>
+          <div class="mini-title">Qualidade</div>
+          <div class="mini-desc">Certificação ANVISA</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-icon" style="background:rgba(46,125,50,0.1);color:var(--green)"><i class="fa-solid fa-credit-card"></i></div>
+          <div class="mini-title">Pagamento Fácil</div>
+          <div class="mini-desc">Pix, cartão e dinheiro</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA BAND ── -->
+<div class="cta-band">
+  <div class="container" style="position:relative;z-index:1">
+    <h2>Precisa de medicamentos agora?</h2>
+    <p>Faça seu pedido pelo WhatsApp e receba em até 1 hora!</p>
+    <a href="https://wa.me/5541999999999" target="_blank" class="btn-primary">
+      <i class="fa-brands fa-whatsapp"></i> Pedir agora pelo WhatsApp
+    </a>
+  </div>
+</div>
+
+<!-- ── CONTATO ── -->
+<section id="contato">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center">
+      <div class="section-tag"><i class="fa-solid fa-phone"></i> Fale Conosco</div>
+      <h2 class="section-title">Entre em <span>Contato</span></h2>
+      <p class="section-desc" style="margin:0 auto">Estamos aqui para te atender. Fale conosco pelo WhatsApp ou nos visite na loja!</p>
+    </div>
+    <div class="contato-inner">
+      <div class="contato-info">
+        <div class="contato-card reveal">
+          <div class="contato-card-icon red"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="contato-card-text">
+            <h4>Endereço</h4>
+            <p>Rua Engenheiro João Bley Filho, 545<br>Pinheirinho, Curitiba — PR<br>CEP: 81870-370</p>
+          </div>
+        </div>
+        <div class="contato-card reveal" style="transition-delay:0.1s">
+          <div class="contato-card-icon green"><i class="fa-solid fa-clock"></i></div>
+          <div class="contato-card-text">
+            <h4>Horário de Funcionamento</h4>
+            <p>Segunda a Sábado: 08:30 — 22:00<br>Domingo: 08:30 — 20:00</p>
+          </div>
+        </div>
+        <div class="contato-card reveal" style="transition-delay:0.2s">
+          <div class="contato-card-icon blue"><i class="fa-solid fa-phone"></i></div>
+          <div class="contato-card-text">
+            <h4>Telefone / WhatsApp</h4>
+            <a href="https://wa.me/5541999999999">(41) 9 9999-9999</a>
+          </div>
+        </div>
+        <div class="contato-card reveal" style="transition-delay:0.3s">
+          <div class="contato-card-icon red"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contato-card-text">
+            <h4>E-mail</h4>
+            <a href="mailto:descontofacilpinheirinho@gmail.com">descontofacilpinheirinho@gmail.com</a>
+          </div>
+        </div>
+        <a href="https://wa.me/5541999999999" target="_blank" class="whatsapp-btn reveal" style="transition-delay:0.4s">
+          <i class="fa-brands fa-whatsapp" style="font-size:22px"></i>
+          Chamar no WhatsApp
+        </a>
+      </div>
+
+      <div class="reveal-right">
+        <div class="contato-detail-card">
+          <h3>Farmácia Desconto Fácil</h3>
+          <p>Pinheirinho — Curitiba, PR</p>
+          <div class="contato-mini-grid">
+            <div class="contato-mini-item">
+              <i class="fa-solid fa-motorcycle" style="color:var(--red)"></i>
+              <span>Delivery Disponível</span>
+            </div>
+            <div class="contato-mini-item">
+              <i class="fa-solid fa-shield-halved" style="color:var(--green)"></i>
+              <span>Certificado ANVISA</span>
+            </div>
+            <div class="contato-mini-item">
+              <i class="fa-solid fa-star" style="color:#f59e0b"></i>
+              <span>+10 Anos de Mercado</span>
+            </div>
+            <div class="contato-mini-item">
+              <i class="fa-solid fa-credit-card" style="color:var(--red)"></i>
+              <span>Pix / Cartão / Dinheiro</span>
+            </div>
+          </div>
+          <div class="contato-hours">
+            <i class="fa-solid fa-clock"></i>
+            <p>Seg–Sáb: 08:30 às 22:00</p>
+            <p>Dom: 08:30 às 20:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MAPA ── -->
+<section id="mapa">
+  <div class="mapa-inner">
+    <div class="section-header reveal" style="text-align:center;margin-bottom:40px">
+      <div class="section-tag"><i class="fa-solid fa-map-location-dot"></i> Onde Estamos</div>
+      <h2 class="section-title">Nossa <span>Localização</span></h2>
+      <p style="font-size:16px;color:var(--gray-600);margin-top:8px">
+        <i class="fa-solid fa-location-dot" style="color:var(--red)"></i>
+        Rua Engenheiro João Bley Filho, 545 — Pinheirinho, Curitiba — PR, 81870-370
+      </p>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.3!2d-49.30!3d-25.538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5e8b0e3c1b1%3A0x1234567890abcdef!2sRua%20Engenheiro%20Jo%C3%A3o%20Bley%20Filho%2C%20545%20-%20Pinheirinho%2C%20Curitiba%20-%20PR%2C%2081870-370!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+        width="100%"
+        height="480"
+        style="border:0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Localização da Farmácia Desconto Fácil Pinheirinho">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <img src="logo.jpg" alt="Farmácias Desconto Fácil" class="footer-logo-img" />
+          <div class="logo-text">
+            <span style="color:rgba(255,255,255,0.6)">Farmácias</span>
+            <span style="color:white;font-size:16px">Desconto Fácil</span>
+          </div>
+        </div>
+        <p>Cuidando da saúde da comunidade do Pinheirinho há mais de 10 anos com qualidade, cuidado e preços justos.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://wa.me/5541999999999" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Produtos</h4>
+        <ul>
+          <li><a href="#">Medicamentos</a></li>
+          <li><a href="#">Perfumaria</a></li>
+          <li><a href="#">Dermocosméticos</a></li>
+          <li><a href="#">Maquiagens</a></li>
+          <li><a href="#">Suplementos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">R. Eng. João Bley Filho, 545</a></li>
+          <li><a href="#">Pinheirinho, Curitiba-PR</a></li>
+          <li><a href="#">CEP: 81870-370</a></li>
+          <li><a href="https://wa.me/5541999999999">(41) 9 9999-9999</a></li>
+          <li><a href="#">Seg–Sáb: 08:30–22:00</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Farmácias Desconto Fácil Pinheirinho. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ── WHATSAPP FLOAT ── -->
+<a href="https://wa.me/5541999999999" target="_blank" class="whatsapp-float" title="Chamar no WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- ── SCROLL TO TOP ── -->
+<button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
