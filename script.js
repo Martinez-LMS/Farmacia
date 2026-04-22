@@ -140,7 +140,7 @@ setActiveLink();
 const productCards = document.querySelectorAll('.produto-card');
 const whatsappLinks = document.querySelectorAll('a[href*="wa.me/"]');
 const whatsappLink = whatsappLinks[0];
-const whatsappBaseUrl = whatsappLink ? whatsappLink.href.split('?')[0] : 'https://wa.me/5541999999999';
+const whatsappBaseUrl = whatsappLink ? whatsappLink.href.split('?')[0] : 'https://wa.me/554196176580';
 
 function getGreeting() {
   const hour = new Date().getHours();
